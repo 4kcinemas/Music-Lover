@@ -91,16 +91,16 @@ STICKERS = (
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/AnjalRobot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/Non_Stop_Music_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/PegaBots"),
+        InlineKeyboardButton(text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Sarathi_Editzz"),
         InlineKeyboardButton(
-            text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/serena_support"
+            text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Namma_Pasanga_Group"
         ),
     ],
     [
-        InlineKeyboardButton(text="📡 𝐍𝐄𝐓𝐖𝐎𝐑𝐊", url="https://t.me/Pegasus_Network"),
+        InlineKeyboardButton(text="📡 𝐍𝐄𝐓𝐖𝐎𝐑𝐊", url="https://t.me/ss_linkz"),
         InlineKeyboardButton(
             text="💾 𝐑𝐄𝐏𝐎", url="https://Github.com/godofanjal/AnjalRobot"
         ),
@@ -244,8 +244,8 @@ def start(update: Update, context: CallbackContext):
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Support ", url=f"t.me/serena_Support"),
-                  InlineKeyboardButton(text=" Updates ", url=f"t.me/PegaBots"),
+                  InlineKeyboardButton(text=" Support ", url=f"t.me/Namma_Pasanga_Group"),
+                  InlineKeyboardButton(text=" Updates ", url=f"t.me/Sarathi_Editzz"),
                   ]
                 ]
             ),
@@ -412,7 +412,7 @@ def zeus_data_callback(update, context):
                     InlineKeyboardButton(text="🔄 Go Inline 🔄", switch_inline_query_current_chat=""),
                  ],
                   [
-                    InlineKeyboardButton(text="📢 Updates", url="t.me/PegasusUpdates"),
+                    InlineKeyboardButton(text="📢 Updates", url="t.me/Sarathi_Editzz"),
                  ],
                  [
                     InlineKeyboardButton(text="⬅ Back", callback_data="zeus_back"),
